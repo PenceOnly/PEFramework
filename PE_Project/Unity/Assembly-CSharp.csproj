@@ -73,6 +73,15 @@
     <Compile Include="Assets\Assets\01_SuperMario\CrossPlatformInput\Scripts\TiltInput.cs" />
     <Compile Include="Assets\Assets\01_SuperMario\CrossPlatformInput\Scripts\TouchPad.cs" />
     <Compile Include="Assets\Assets\01_SuperMario\CrossPlatformInput\Scripts\VirtualInput.cs" />
+    <Compile Include="Assets\Assets\01_SuperMario\scripts\ChangeDirection.cs" />
+    <Compile Include="Assets\Assets\01_SuperMario\scripts\ControlMove.cs" />
+    <Compile Include="Assets\Assets\01_SuperMario\scripts\FollowPlayer.cs" />
+    <Compile Include="Assets\Assets\01_SuperMario\scripts\IconRotate.cs" />
+    <Compile Include="Assets\Assets\01_SuperMario\scripts\Move.cs" />
+    <Compile Include="Assets\Assets\01_SuperMario\scripts\PickUpIcon.cs" />
+    <Compile Include="Assets\Assets\01_SuperMario\scripts\PickUpStar.cs" />
+    <Compile Include="Assets\Assets\01_SuperMario\scripts\StarMove.cs" />
+    <Compile Include="Assets\Assets\01_SuperMario\scripts\TestCollision.cs" />
     <Compile Include="Assets\Assets\01_SuperMario\Utility\ActivateTrigger.cs" />
     <Compile Include="Assets\Assets\01_SuperMario\Utility\AlphaButtonClickMask.cs" />
     <Compile Include="Assets\Assets\01_SuperMario\Utility\AutoMobileShaderSwitch.cs" />
@@ -105,6 +114,7 @@
     <Compile Include="Assets\GameMemu\Scripts\UI\UIGroup.cs" />
     <Compile Include="Assets\GameMemu\Scripts\UI\UIMenu.cs" />
     <Compile Include="Assets\GameMemu\Scripts\UI\UIPrefabPath.cs" />
+    <Compile Include="Assets\Move.cs" />
     <Compile Include="Assets\Scripts\01_SuperMario\ChangeDirection.cs" />
     <Compile Include="Assets\Scripts\01_SuperMario\ControlMove.cs" />
     <Compile Include="Assets\Scripts\01_SuperMario\FollowPlayer.cs" />
@@ -113,6 +123,7 @@
     <Compile Include="Assets\Scripts\01_SuperMario\PickUpStar.cs" />
     <Compile Include="Assets\Scripts\01_SuperMario\StarMove.cs" />
     <Compile Include="Assets\Scripts\Init\ProcedureInit.cs" />
+    <Compile Include="Assets\TestCollision.cs" />
     <None Include="Assets\GameFramework\Libraries\link.xml" />
     <None Include="Assets\GameFramework\Libraries\GameFramework.xml" />
     <None Include="Assets\GameFramework\Configs\AssetBundleEditor.xml" />
