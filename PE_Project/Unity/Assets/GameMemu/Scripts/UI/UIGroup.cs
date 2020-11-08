@@ -7,6 +7,6 @@ namespace GameMenu
 {
     public class UIGroup
     {
-        public const string Menu = "Menu";
+        public const string GameMenu = "GameMenu";
     }
 }

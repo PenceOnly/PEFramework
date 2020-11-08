@@ -12,12 +12,10 @@ namespace GameMenu
     {
         protected override void OnEnter(ProcedureOwner procedureOwner)
         {
-            Log.Debug("加载UI");
+            Debug.Log("加载UI");
             base.OnEnter(procedureOwner);
-            //加载UI框架
-            UIComponent UI = UnityGameFramework.Runtime.GameEntry.GetComponent<UIComponent>();
-            //加载UI
-            UI.OpenUIForm(UIPrefabPath.Main,UIGroup.Menu);
+            // 加载UI
+            GameEntry.UI.OpenUIForm(UIPrefabPath.Main,UIGroup.GameMenu);
         }
     }
 }
